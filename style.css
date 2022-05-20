@@ -1,0 +1,102 @@
+
+html, body {
+  overflow-x:none;
+  max-width: 100%;
+  width:100%;
+}
+body {
+	background: url("/background.jpeg");
+  background-size:cover;
+  background-repeat:no-repeat;
+	margin:0;
+	width:100%;
+	overflow-x:hidden;
+  padding-top:70px;
+  padding-top:100px;
+}
+h1 {
+  text-align: center;
+  
+}
+h3{
+	text-align: center;
+}
+audio {
+  display: block; 
+  margin: 0 auto;
+}
+
+card {
+	margin-left:0;
+}
+card img {
+  width:98%;
+}
+#card2 {
+	position:relative;
+	left:302%;
+}
+#card4 {
+  position:relative;
+  left:302%;
+}
+.SuperBig {
+  font-size:75px;
+  color:white;
+}
+header {
+  position:fixed;
+  top:0;
+  left:0px;
+  backdrop-filter: blur(0.5em);
+  -webkit-backdrop-filter:blur(0.5em);
+  width:100%;
+  height:70px;
+  z-index:99;
+  text-align: right;
+  padding-top:10px;
+  padding-right:10px;
+  overflow:auto;
+  .header-img {
+  width: 100%;
+  height: 400px;
+ 
+}
+}
+#BN:hover {
+  color:black;
+}
+header button {
+  margin-right:10px;
+  margin-left:6px;
+  margin-top:10px;
+  float: right;
+  height:40px;
+  
+}
+
+
+.Game {
+  border-radius:50%;
+  margin:0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .Game {
+  height:60px;
+  width:115px;
+  margin-left:20px;
+}
+img {
+  width:200px;
+}
+.YT {
+  width:25px;
+  margin:0 auto;
+  display: block;
+  transition:.6s;
+}
+.YT:hover {
+  transform:scale(1.5);
+}
